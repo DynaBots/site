@@ -3,7 +3,7 @@ layout: post
 title: Ideation To Guide Research
 description: ""
 headline: ""
-categories: personal
+categories: blog
 tags: 
   - blogging
   - jekyll
@@ -14,7 +14,7 @@ image:
 featured: true
 published: true
 ---
-#Ideation To Guide Research: What You’d do when The Research Area is too Vast
+
 What happens when the area you are approaching is too vast to even know which part you are want to research? How do you narrow down your research areas, so that the research you do is effective and meaningful? After all, none of us likes to read tons of academic articles for no purpose! We were given a wide topic area: 3D Gestures and Digital Publication. Ok, So now what? Where do we start? We started by general term queries, and soon realized there was too much diversity to be able to conduct the research with general term queries. So, we decided to do an ideation session within the research. In a way, we decided to do an affinity diagram of the potential research paths we could take, to be able to focus our research.
 We started  with the theme of “Experience of 3D Published Content”, and then began to define it.
 What do we mean by experience? We defined it as feeling that you are in the action. You are part of the content you are consuming.

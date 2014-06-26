@@ -18,6 +18,7 @@ require 'fileutils'
 require 'pathname'
 require 'digest/md5'
 require 'mini_magick'
+require 'uri'
 
 module Jekyll
 
@@ -105,26 +106,26 @@ module Jekyll
       instance_2x = Marshal.load( Marshal.dump(instance) )
 
       if instance[:width] || instance[:height]
-        generated_src = generate_image(instance, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) )
+        generated_src = URI.escape( generate_image(instance, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) ).to_s )
         # Calculate 0x resolution
         instance_0x[:width] = (instance[:width].to_f / 2).round
         instance_0x[:height] = (instance[:height].to_f / 2).round
-        generated_src_0x = generate_image(instance_0x, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) )
+        generated_src_0x = URI.escape( generate_image(instance_0x, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) ).to_s )
         # Calculate 2x resolution
         instance_2x[:width] = (instance[:width].to_f * 2).round
         instance_2x[:height] = (instance[:height].to_f * 2).round
-        generated_src_2x = generate_image(instance_2x, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) )
+        generated_src_2x = URI.escape( generate_image(instance_2x, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) ).to_s )
       else
         # Generate the 2x image at full resolution
-        generated_src_2x = generate_image(instance_2x, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) )
+        generated_src_2x = URI.escape( generate_image(instance_2x, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) ).to_s )
         # Generate a 1x image that's half the size of the 2x image
         instance[:width] = (instance_2x[:width].to_f / 2).round
         instance[:height] = (instance_2x[:height].to_f / 2).round
-        generated_src = generate_image(instance, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) )
+        generated_src = URI.escape( generate_image(instance, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) ).to_s )
         # Generate a 0x image that's a quarter of the size of the 2x image
         instance_0x[:width] = (instance_2x[:width].to_f / 4).round
         instance_0x[:height] = (instance_2x[:height].to_f / 4).round
-        generated_src_0x = generate_image(instance, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) )
+        generated_src_0x = URI.escape( generate_image(instance, site.source, site.dest, settings['source'], File.join(settings['output'], post_slug) ).to_s )
       end
 
       unless generated_src && generated_src_0x && generated_src_2x

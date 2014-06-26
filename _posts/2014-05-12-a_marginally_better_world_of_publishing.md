@@ -3,7 +3,7 @@ layout: post
 title: Contextual Interview at The Daily
 description: ""
 headline: ""
-categories: personal
+categories: blog
 tags: 
   - blogging
   - jekyll
@@ -14,10 +14,9 @@ image:
 featured: true
 published: true
 ---
-#A Marginally Better World of Publishing
 
+### Process and Activity
 
-###Process and Activity
 If you think about the wide range of published content out there on the Internet, you might end up, like we did, with a collection of three archetypal points on a continuum:
 
 The typically high-quality, but often “linear” or “one-sided” work coming from in-house teams of writers and editors at “professional” news media outlets.
@@ -30,7 +29,8 @@ Now, that’s pretty gloomy, but it brings up another interesting point: this si
 
 We don’t have an answer for “what” or “how” yet, but considering this model of journalism, a rising tide raises all boats, right? Could some new form of content elevate the quality of the entire system? Maybe it’s possible—for all we know, there’s A Marginally Better World for journalism waiting out there for us.
 
-###Key Findings and Observations
+### Key Findings and Observations
+
 Among all the other research and frameworking we’d done, this concept of journalistic quality inspired us to take the plunge into crafting a design question for our project. After many, many iterations, we finally hammered one out:
 
 How can we use new forms of interactive content to remove the barrier between creation and consumption of high-integrity, valuable journalism?
@@ -43,6 +43,7 @@ Now, design questions serve two purposes: to give a project direction and focus,
 
 Depending on who you ask, these may well be the primary tenets of “true” journalism itself, and as such, we feel the need to support high standards for quality and integrity as much as possible through our work.
 
-###Implications for Design and Project Next Steps
+### Implications for Design and Project Next Steps
+
 Where do we go from here?
 Taking up the mantle of journalistic integrity is no easy feat, to be sure. To us, that means looking at media content through the lens of journalists: what can we do to help them produce great work? At the same time, there’s this possibility of elevating the quality of user-generated content: could there exist a system that could helps “consumers” create content that more powerfully enriches the source material? We don’t know yet, but this is a guiding principle, just like our principles of 3D gestural interfaces, that will serve us well as we begin to develop design concepts.

@@ -77,7 +77,7 @@ permalink:   /:categories/:title
 
 # Image Plugin Settings
 image:
-  source: images/
+  source: _images/
   output: images/generated
   wrapperTag: figure
   presets:
