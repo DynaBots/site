@@ -1,0 +1,7 @@
+.pageGrid{
+	height: 200px;
+	border-width: 1px;
+	border-style: solid;
+	background: rgba(0, 0, 0, 0.85);
+	border-color: gray;
+}
