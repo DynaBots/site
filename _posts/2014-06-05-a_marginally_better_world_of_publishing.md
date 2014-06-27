@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contextual Interview at The Daily
+title: A marginally better World of Publishing
 description: ""
 headline: ""
 categories: blog
