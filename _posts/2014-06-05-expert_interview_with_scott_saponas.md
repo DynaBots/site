@@ -8,7 +8,7 @@ tags:
   - blogging
   - jekyll
 image: 
-  feature: "website-speed.jpg"
+  feature: "Photos & Videos/Stock Photography/scott.jpg"
   credit: spreadeffect.com
   creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 featured: true

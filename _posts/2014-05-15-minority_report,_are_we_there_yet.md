@@ -8,7 +8,7 @@ tags:
   - blogging
   - jekyll
 image: 
-  feature: "website-speed.jpg"
+  feature: "Photos & Videos/5-15 Ethnography/IMG_20140515_185510.jpg"
   credit: spreadeffect.com
   creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 featured: true

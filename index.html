@@ -40,7 +40,11 @@ description: "Homepage"
         {% assign posttime = post.date | date: "%Y%m%d" %}
 
         <a href="{{ site.url }}{{ post.url }}">
-        <div class="col-xs-12 col-md-4 pageGrid">  
+        
+        <div class="col-xs-12 col-md-4 pageGrid" >  
+          
+          {% image default "{{ post.image.feature }}" %}
+          
           <article><i class=""></i> {{ post.title }}</article>
           <div class="post-info small">
             {% if site.readtime %}
@@ -48,6 +52,7 @@ description: "Homepage"
             {% endif %}
           </div>
         </div>
+        
         </a> 
       {% endfor %}
     </div>

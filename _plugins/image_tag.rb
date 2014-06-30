@@ -93,10 +93,14 @@ module Jekyll
       }
 
       # Get the post's title so we can place generated images in a subfolder
-      id = context["page"]["id"]
-      posts = context.registers[:site].posts
-      post = posts [posts.index {|post| post.id == id}]
-      post_slug = (Pathname.new post.url).basename
+      if context.registers[:site].posts and context["page"]["id"]
+        id = context["page"]["id"]
+        posts = context.registers[:site].posts
+        post = posts [posts.index {|post| post.id == id}]
+        post_slug = (Pathname.new post.url).basename
+      else
+        post_slug = ""
+      end
 
       # Raise some exceptions before we start expensive processing
       raise "Image Tag can't find the \"#{markup[:preset]}\" preset. Check image: presets in _config.yml for a list of presets." unless preset || dim ||  markup[:preset].nil?

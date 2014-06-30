@@ -8,7 +8,7 @@ tags:
   - blogging
   - jekyll
 image: 
-  feature: "website-speed.jpg"
+  feature: "Photos & Videos/6-09 Stakeholder Map/Stakeholder Map Photo.jpg"
   credit: spreadeffect.com
   creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 featured: true
@@ -19,7 +19,7 @@ published: true
 
 We chose to do a stakeholder map because we wanted to better understand the relationships between the stakeholders and how value passes between them. More specifically, we wanted to see what values in addition to money were passing between stakeholders. We started by writing all the stakeholders we could think of on post-it notes. Once that was finished, we grouped related post-it notes on a large sheet of butcher paper. When we had managed to group all of the post-it notes, we came up with overarching group titles for each cluster of stakeholders. The main groups were determined to be publishing platforms, consumers, content creators, platform providers, and funders. The final step was to determine how value passed between the large groups of stakeholders as well as between individual stakeholders.
 
-{% image default "Photos & Videos/6-9 Stakeholder Map/Stakeholder Map Photo.jpg" alt="Stakeholder map"  %}
+{% image default "Photos & Videos/6-09 Stakeholder Map/Stakeholder Map Photo.jpg" alt="Stakeholder map"  %}
 
 {% image default "Photos & Videos/5-15 Ethnography/IMG_7041.JPG" alt="Stakeholder map digital"  %}
 
