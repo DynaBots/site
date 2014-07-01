@@ -1,3 +1,28 @@
+#masthead .img-container  {
+	padding-bottom: 0 !important;
+	padding-top: 0;
+	position: absolute;
+	height: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+#masthead .img-container img {
+	position: absolute;
+	height: auto;
+	width: 100%;
+	max-width: none !important;
+	left: -50%;
+	right: -50%;
+	top: -50%;
+	bottom: -50%;
+	margin: auto;
+	border-radius: 0;
+}
+
 .pageGrid {
 	height: 200px;
 	border-width: 1px;
