@@ -1,8 +1,11 @@
+---
 layout: post
 title: Project Plan Deliverable
-categories: blog
 description: ""
 headline: ""
+categories: blog
+image: 
+  feature: "Photos & Videos/6-30 Dynabots Detailed Task Plan Gantt Chart.png"
 featured: true
 published: true
 ---
