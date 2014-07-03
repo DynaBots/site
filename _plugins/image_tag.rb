@@ -102,6 +102,12 @@ module Jekyll
         post_slug = ""
       end
 
+      if post_slug != ""
+        puts post_slug
+      else
+        puts "Processing some template file"
+      end
+
       # Raise some exceptions before we start expensive processing
       raise "Image Tag can't find the \"#{markup[:preset]}\" preset. Check image: presets in _config.yml for a list of presets." unless preset || dim ||  markup[:preset].nil?
 

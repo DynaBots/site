@@ -8,14 +8,10 @@ tags:
   - blogging
   - jekyll
 image: 
-  feature: "Photos & Videos/Stock Photography/newspaper Stack.png"
-  credit: spreadeffect.com
-  creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
+  feature: "Photos & Videos/Stock Photography/Newspaper stack.png"
 featured: true
 published: true
 ---
-
-{% image default "Photos & Videos/Stock Photography/newspaper Stack.png" alt="A Competitive Look at the Media Industry (and Where it's Going" %}
 
 ### Activity and Process
 

@@ -43,7 +43,9 @@ description: "Homepage"
         
         <div class="col-xs-12 col-md-4 pageGrid" >  
           
-          {% image default "{{ post.image.feature }}" %}
+          {% if post.image.feature %}
+            {% image default "{{ post.image.feature }}" %}
+          {% endif %}
           
           <article><i class=""></i> {{ post.title }}</article>
           <div class="post-info small">

@@ -8,14 +8,14 @@ tags:
   - blogging
   - jekyll
 image: 
-  feature: "Photos & Videos/Flipboard Heuristic Evaluation/heuristic evaluation flipboard.jpg"
+  feature: "Photos & Videos/6-06 Flipboard Heuristic Evaluation/heuristic evaluation flipboard.jpg"
   credit: spreadeffect.com
   creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 featured: true
 published: true
 ---
 
-{% image default "Photos & Videos/Flipboard Heuristic Evaluation/heuristic evaluation flipboard.jpg" alt="Fipboard screenshot" %}
+{% image default "Photos & Videos/6-06 Flipboard Heuristic Evaluation/heuristic evaluation flipboard.jpg" alt="Fipboard screenshot" %}
  
 ### Activity and Process
  

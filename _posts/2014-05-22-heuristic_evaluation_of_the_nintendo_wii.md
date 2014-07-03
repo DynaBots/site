@@ -46,7 +46,7 @@ Our Analysis Spreadsheet (research —> evaluative Research folder)*
 Exercise Summary
 We chose to do a heuristic evaluation of the app Flipboard, because it is a relatively popular news consumption platform. We started the evaluation on a Windows tablet, and then switched to an Android tablet and an Android smartphone to find out if there were platform differences. 
 
-{% image default "Photos & Videos/Flipboard Heuristic Evaluation/heuristic evaluation flipboard.jpg" alt="Screenshots from the heuristic evaluation of Flipboard"  %}
+{% image default "Photos & Videos/6-06 Flipboard Heuristic Evaluation/heuristic evaluation flipboard.jpg" alt="Screenshots from the heuristic evaluation of Flipboard"  %}
 
 ### Reflections on this Technique
 
