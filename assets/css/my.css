@@ -1,7 +1,8 @@
-#landingPage-grid a{
+#landingPage-grid a {
 	color: white;
 }
-#masthead .img-container  {
+
+#masthead .img-container {
 	padding-bottom: 0 !important;
 	padding-top: 0;
 	position: absolute;
@@ -35,7 +36,7 @@
 	padding: 10px;
 }
 
-.pageGrid .img-container  {
+.pageGrid .img-container {
 	padding-bottom: 0 !important;
 	padding-top: 0;
 	z-index: -1;
@@ -50,8 +51,8 @@
 
 .pageGrid .img-container img {
 	position: absolute;
-	height: 100%;
-	width: auto !important;
+	height: auto;
+	width: 100% !important;
 	max-width: none !important;
 	left: -50%;
 	right: -50%;
@@ -63,4 +64,29 @@
 
 .pageGrid .post-info{
 	color: white;
+}
+
+@media screen and (min-width: 992px) {
+	.pageGrid .img-container img {
+		position: absolute;
+		height: 125%;
+		width: auto !important;
+		max-width: none !important;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.pageGrid .img-container img {
+		position: absolute;
+		height: 125%;
+		width: auto !important;
+		max-width: none !important;
+	}
+
+	#masthead .img-container img {
+		position: absolute;
+		height: 100%;
+		width: auto;
+		max-width: none !important;
+	}
 }
