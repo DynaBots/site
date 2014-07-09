@@ -88,10 +88,10 @@ a:hover {
   font-style: italic;
 }
 /* - Lead text - */
-.lead {
+/*.lead {
   font-size: 21px;
   line-height: 2em;
-}
+}*/
 /* - Blockquote - */
 blockquote {
   padding-left: 0;
