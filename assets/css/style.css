@@ -779,7 +779,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, .pageGrid {
   font-family: 'Raleway', sans-serif;
 }
 h1.lighter,
@@ -3226,7 +3226,7 @@ img.mfp-img {
 .mfp-fade.mfp-removing.mfp-bg {
     opacity: 0;
 }
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 4px;
     height: 6px;
 }
@@ -3245,7 +3245,7 @@ img.mfp-img {
 
 ::-webkit-scrollbar-thumb:window-inactive {
     background: rgba(0,0,0,0.2);
-}
+}*/
 /* - Menu - */
 .menu-items {
   margin: 0;

@@ -27,13 +27,85 @@
 	border-radius: 0;
 }
 
-.pageGrid {
-	height: 200px;
-	border-width: 3px;
-	border-style: solid;
+#introRow {
+	background: gray;
+	position: relative;
+}
+
+.carousel-container {
+	overflow: auto;
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+	border: 4px solid blue;
+	background: orange;
+}
+
+.carousel-frame {
+	overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding: 0;
+}
+
+.carousel-track {
+	display: table;
+}
+
+.carousel-track a {
+	display: table-cell;
+	min-width: 560px;
+}
+
+.carousel-container a > div {
 	background: rgba(0, 0, 0, 0.50);
-	border-color: white;
-	padding: 10px;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 27px;
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+.carousel-container a .img-container {
+	padding-bottom: 0 !important;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	padding: 0;
+}
+
+.carousel-container a .img-container img {
+	width: auto !important;
+    height: 100% !important;
+	border-radius: 0;
+	pointer-events: none;
+	position: absolute;
+	top: -50%;
+	bottom: -50%;
+	left: -50%;
+	right: -50%;
+	margin: auto;
+}
+
+.carousel-container a article {
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.pageGrid:nth-child(3n) > div {
+	border-right: none;
+}
+
+.pageGrid > div article {
+	margin: 5%;
+	text-shadow: 0 0 1px #000;
 }
 
 .pageGrid .img-container {
@@ -62,9 +134,11 @@
 	border-radius: 0;
 }
 
-.pageGrid .post-info{
+.pageGrid .post-info {
 	color: white;
 }
+
+/* .pageGrid reponsive layout fixes */
 
 @media screen and (min-width: 992px) {
 	.pageGrid .img-container img {
@@ -88,5 +162,9 @@
 		height: 100%;
 		width: auto;
 		max-width: none !important;
+	}
+
+	.pageGrid.col-md-4 {
+		padding-bottom: 56.25%;
 	}
 }

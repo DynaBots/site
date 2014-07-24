@@ -6,28 +6,21 @@ description: "Homepage"
 
 
 <div class="row">
-  <article class="post col-md-10 col-md-offset-1">
+  <article class="post col-md-5">
     <header class="post-header">
-      <h2 class="post-body lighter bordered-bottom">
         <span class="icon-quote-left"></span>
         <i> How can we use new forms of interactive content to remove the barrier between creation and consumption of high-integrity, valuable journalism? </i>
         <span class="icon-quote-right"></span>
-      </h2>
     </header>
   </article>
-</div>
-
-<div class="row">
-  <article class="post post col-md-12">
-    <div class="post-body bordered-bottom">
+  <article class="post post col-md-7">
       {% vimeo 99207847 %}
-    </div>
   </article>
 </div>
 
-<div class="row">
-  <div class="col-md-12">
-    <div id="landingPage-grid">
+<div id="recentPosts" class="row carousel-container">
+  <div class="carousel-frame col-md-12">
+    <div class="carousel-track">
       {% for post in site.posts %}
         {% assign ert = post.content | strip_html | number_of_words | divided_by:180 %}
         {% assign ertremainder = post.content | strip_html | number_of_words | modulo:180 %}
@@ -40,22 +33,19 @@ description: "Homepage"
         {% assign posttime = post.date | date: "%Y%m%d" %}
 
         <a href="{{ site.url }}{{ post.url }}">
-        
-        <div class="col-xs-12 col-md-4 pageGrid" >  
-          
-          {% if post.image.feature %}
-            {% image default "{{ post.image.feature }}" %}
-          {% endif %}
-          
-          <article><i class=""></i> {{ post.title }}</article>
-          <div class="post-info small">
-            {% if site.readtime %}
-            <span class="post-tags"><i class="icon-time"></i>&nbsp;{% if readtime == 1 %}1 minute read{% endif %}{% if readtime > 1 %}{{ readtime }} minutes read{% endif %}{% if readtime == 0 %}Less than 1 minute read{% endif %}</span>
+          <div>
+            {% if post.image.feature %}
+              {% image carousel "{{ post.image.feature }}" %}
             {% endif %}
+            
+            <article><i class=""></i> {{ post.title }}</article>
+            <div class="post-info small">
+              {% if site.readtime %}
+              <span class="post-tags"><i class="icon-time"></i>&nbsp;{% if readtime == 1 %}1 minute read{% endif %}{% if readtime > 1 %}{{ readtime }} minutes read{% endif %}{% if readtime == 0 %}Less than 1 minute read{% endif %}</span>
+              {% endif %}
+            </div>
           </div>
-        </div>
-        
-        </a> 
+        </a>
       {% endfor %}
     </div>
   </div>
