@@ -34,13 +34,6 @@ Though we found the inclusion of specific gameplay metrics to be useful, these m
 Though many of our metrics were specific to the gaming world, we realized that some of these metrics could still be applied to any gesture-based interface. These metrics included the ability to pause a current action, the ability to go backwards through menu levels easily, and the ability to exit a program whenever the user wishes.
 The results of this evaluation have caused us to think about what heuristics would be most valuable in the evaluation of a 3D setting, and which actions would be essential to a gesture-based interaction model. Completing this evaluation has also given us a foundation for how we might go about finding the most essential visuals and tasks that a user might need for a gesture-based interface, and how to evaluate them.
 
-*Media Needed:
-Heuristic Evaluation of Wii Image (photos and video folder)
-Consent Form (research —> evaluative Research folder)
-Our Heuristic Evaluation Form (research —> evaluative Research folder)
-Our list of Metrics (research —> evaluative Research folder)
-Our Analysis Spreadsheet (research —> evaluative Research folder)*
-
 # Heuristic Evaluation of Flipboard 
 
 Exercise Summary
