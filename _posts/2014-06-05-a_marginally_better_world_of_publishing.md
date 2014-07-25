@@ -9,8 +9,6 @@ tags:
   - jekyll
 image: 
   feature: "Photos & Videos/6-05 Giant Affinity Diagram/Dynabots Capstone Project Introduction Video Slide Deck.jpg"
-  credit: spreadeffect.com
-  creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 featured: true
 published: true
 ---
@@ -24,6 +22,8 @@ New forms of “clickbait” journalism, coming from contributor platforms such 
 The diverse and occasionally insufficient world of user-generated journalism on the web, from blog posts to Internet comments.
 
 Now, if you’re not feeling too good about the future of journalism, you might look at these points and graph them quite pessimistically onto into a “death spiral” of declining journalistic quality, as we’ve done below:
+
+{% image default "Photos & Videos/6-05 Giant Affinity Diagram/Dynabots Capstone Project Introduction Video Slide Deck.jpg" %}
 
 Now, that’s pretty gloomy, but it brings up another interesting point: this simple chart also describes something of a “trickle-down” model of derivative creative works. That is, readers comments on a “clickbait” article which sources information from a “professional” news report are all interconnected, in the end.
 

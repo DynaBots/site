@@ -4,13 +4,8 @@ title: Affinity Mapping of the Secondary Research Done to Date
 description: ""
 headline: ""
 categories: blog
-tags: 
-  - blogging
-  - jekyll
 image: 
   feature: "Photos & Videos/6-05 Giant Affinity Diagram/Giant Affinity Diagram.jpg"
-  credit: spreadeffect.com
-  creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 featured: true
 published: true
 ---
@@ -23,7 +18,9 @@ We started by individually going through the papers we had read, summarizing the
 
 Having organized our Post-Its into clusters, we then started to find connections and overlays between the different clusters. Specifically, we worked to establish relationships between the clusters of 3D gesture technologies and the clusters of publishing industry information.
 
-With two giant whiteboards full of information, we had managed to boil down and categorize our research findings into clusters that we could work to dig deeper or dismiss as irrelevant to our current focus.  
+With two giant whiteboards full of information, we had managed to boil down and categorize our research findings into clusters that we could work to dig deeper or dismiss as irrelevant to our current focus.
+
+{% image default "Photos & Videos/6-05 Giant Affinity Diagram/Giant Affinity Diagram Pano Ninja.jpg" href="https://drive.google.com/file/d/0B-YvMLVHMKS6TkZ1YVhBWnFMMUU/edit?usp=sharing" %}
 
 ### Activity Findings
 
@@ -32,7 +29,9 @@ We formed groups around problems, types, and properties of gesture technology; p
 * The intersection of social-sharing, storytelling platforms, reader-generated content, and gesture technology
 * Relationships between print media, digital media, and the changing focus of coverage 
 * Consumers, news media, and content creation (from stakeholder map)
-For better access and retrieval of this valuable research artifact, we decided to digitize this big diagram using OmniGraffle. Below are the handwritten and digital versions of our affinity diagram.
+For better access and retrieval of this valuable research artifact, we decided to digitize this big diagram using OmniGraffle. Below is the digital version of our affinity diagram.
+
+{% image default "Photos & Videos/6-05 Giant Affinity Diagram/Giant Affinity Diagram.jpg" href="https://drive.google.com/file/d/0B-YvMLVHMKS6QlRlODhIR1FZQ3c/edit?usp=sharing" %}
 
 ### Implications for Design
 
