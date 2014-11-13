@@ -21,7 +21,7 @@ We were given a wide topic area: **3D Gestures and Digital Publication.** Ok, So
 
 We started with the theme of “Experience of 3D Published Content”, and then began to define it.
 
-{% image default "Photos & Videos/5-29 Experience of 3D Published Content/Experience of 3D Published Content Panorama.JPG" alt="Experience of 3D Published Content Whiteboard Chart" %}
+{% image default "Photos & Videos/5-29 Experience of 3D Published Content/Experience of 3D Published Content Panorama.JPG" alt="Experience of 3D Published Content Whiteboard Chart" href="https://drive.google.com/file/d/0B-YvMLVHMKS6ekYyNUFvWjRrMHc/view?usp=sharing" %}
 
 What do we mean by experience? We defined it as feeling that you are in the action. You are part of the content you are consuming.
 
