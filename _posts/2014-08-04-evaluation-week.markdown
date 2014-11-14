@@ -10,6 +10,7 @@ image:
 ---
 
 This past week has been a whirlwind of focusing our prototyping efforts, having target audience users test this prototype, and further refining the prototype.
+
 ### Our New Focus: Exploration
 
 We made a huge breakthrough after our prototyping presentation of a couple weeks ago, which allowed us to narrow our focus. Because of the medium-high fidelity and resources for the prototype we had created for the “capture”, or 3D construction of environments through crowd-sourced 3D image contributions, we decided that the capture interface was now at a high-enough fidelity for our purposes. As a team, we became more interested in the “explore” part of our design over time, and so chose to focus our further prototyping and evaluation on that experience.
