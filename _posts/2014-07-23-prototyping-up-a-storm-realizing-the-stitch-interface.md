@@ -46,7 +46,7 @@ The Capture UI Variables framework came out of a discussion that revealed differ
 
 We took some time to create a unique one-off prototype: a compact video prototype of Stitch, which defines and explains the system through words and graphics. We created this explanation to help people better grasp the core concepts of the system. Our previous storyboard videos were successful in this regard, so this shorter video aimed to tighten up and compact the storytelling from those, providing a quick, solid, and accessible introduction to Stitch.
 
-{% vimeo 101036788 %}
+{% youtube S60yND1Sgo4 %}
 
 ### Prototyping for Mobile First
 

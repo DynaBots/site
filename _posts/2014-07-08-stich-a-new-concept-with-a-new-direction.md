@@ -18,7 +18,7 @@ We began to wonder, **what would a crowdsourced platform for immersive, exposito
 
 These are all questions we are thinking about as we further develop our new concept: “Stitch”. We’ve prepared several storyboards describing “Stitch” in action, which you can view below.
 
-{% vimeo 100335348 %}
+{% youtube zVYQckKxWl4 %}
 
 ### What is “Stitch”?
 
